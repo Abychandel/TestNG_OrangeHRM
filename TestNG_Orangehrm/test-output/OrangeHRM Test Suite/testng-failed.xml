@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Test Suite]">
+  <test thread-count="5" name="Employee Registration Test(failed)">
+    <parameter name="fname" value="Akshay"/>
+    <parameter name="lname" value="Kumar"/>
+    <classes>
+      <class name="orangehrm.Testcases.Employee_Registration">
+        <methods>
+          <include name="launchApp"/>
+          <include name="adminlogout"/>
+          <include name="EmployeeReg"/>
+          <include name="adminlogin"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- orangehrm.Testcases.Employee_Registration -->
+    </classes>
+  </test> <!-- Employee Registration Test(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test Suite] -->
